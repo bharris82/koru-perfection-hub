@@ -1,4 +1,4 @@
-import { Shield, DollarSign, MessageSquareX } from "lucide-react";
+import { Shield, MessageSquareX } from "lucide-react";
 
 const Problems = () => {
   const problems = [
@@ -7,12 +7,6 @@ const Problems = () => {
       title: "Privacy Concerns",
       description: "Your family photos training someone else's AI. Business secrets shared with big tech. No control over your data.",
       color: "text-red-400"
-    },
-    {
-      icon: DollarSign,
-      title: "Subscription Fatigue",
-      description: "$20/month per person adds up fast. Features removed without notice. Lose access when you stop paying.",
-      color: "text-yellow-400"
     },
     {
       icon: MessageSquareX,
@@ -34,7 +28,7 @@ const Problems = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {problems.map((problem, index) => (
             <div 
               key={index}
