@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Mail } from "lucide-react";
+import ConsultationForm from "@/components/consultation-form";
 
 const CTA = () => {
   return (
@@ -19,14 +20,7 @@ const CTA = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary-bright text-primary-foreground px-8 py-4 text-lg font-semibold glow-primary group animate-glow-pulse"
-            >
-              <Mail className="mr-2 w-5 h-5" />
-              Schedule Free Consultation
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <ConsultationForm />
             <Button 
               size="lg" 
               variant="outline" 
