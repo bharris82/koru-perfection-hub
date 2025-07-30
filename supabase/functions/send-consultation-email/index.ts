@@ -29,10 +29,10 @@ const handler = async (req: Request): Promise<Response> => {
 
     console.log("Received consultation request from:", email);
 
-    // Send email to you (the business owner)
+    // Send email to you (the business owner) - using your verified email for now
     const emailResponse = await resend.emails.send({
       from: "Consultation Request <onboarding@resend.dev>",
-      to: ["Barryharris82@outlook.com"],
+      to: ["barryharris82@icloud.com"], // Using verified email address
       subject: `New Consultation Request from ${name}`,
       html: `
         <h2>New Consultation Request</h2>
