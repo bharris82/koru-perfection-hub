@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight">
             Your Own Private AI
             <br />
-            <span className="text-text-secondary">Private & Secure</span>
+            <span className="text-text-secondary">Local & Secure</span>
           </h1>
           
           {/* Subheading */}
