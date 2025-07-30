@@ -21,6 +21,9 @@ const Navigation = () => {
           <a href="#features" className="text-text-secondary hover:text-text-primary transition-colors">
             Features
           </a>
+          <a href="#solution" className="text-text-secondary hover:text-text-primary transition-colors">
+            Solution
+          </a>
           <a href="#how-it-works" className="text-text-secondary hover:text-text-primary transition-colors">
             How It Works
           </a>

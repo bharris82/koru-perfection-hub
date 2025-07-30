@@ -29,7 +29,7 @@ const Solution = () => {
   ];
 
   return (
-    <section className="py-20 px-6 relative" id="pricing">
+    <section className="py-20 px-6 relative" id="solution">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5"></div>
       
