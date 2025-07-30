@@ -37,50 +37,40 @@ const ConsultationForm = ({ triggerButton }: ConsultationFormProps) => {
     setIsSubmitting(true);
 
     try {
-      // Create email content
-      const emailContent = `
-New Consultation Request - The Koru Project
-
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Company: ${formData.company}
-Preferred Time: ${formData.preferredTime}
-
-Message:
-${formData.message}
-
----
-Sent from The Koru Project consultation form
-      `;
-
-      // For now, we'll use a simple mailto approach
-      // In production, you'd want to use a backend service or Supabase Edge Functions
-      const subject = encodeURIComponent("New Consultation Request - The Koru Project");
-      const body = encodeURIComponent(emailContent);
-      const mailtoUrl = `mailto:Barryharris82@outlook.com?subject=${subject}&body=${body}`;
-      
-      window.location.href = mailtoUrl;
-
-      toast({
-        title: "Consultation Request Sent",
-        description: "Your email client should open with the consultation details. We'll get back to you within 24 hours!",
+      const response = await fetch('https://zdzfaocsmtvmmecdefhq.supabase.co/functions/v1/send-consultation-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
 
-      // Reset form and close dialog
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        company: "",
-        message: "",
-        preferredTime: ""
-      });
-      setIsOpen(false);
+      const result = await response.json();
+
+      if (response.ok) {
+        toast({
+          title: "Request sent successfully!",
+          description: "We'll get back to you within 24 hours.",
+        });
+
+        // Reset form and close dialog
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          company: "",
+          message: "",
+          preferredTime: ""
+        });
+        setIsOpen(false);
+      } else {
+        throw new Error(result.error || 'Failed to send consultation request');
+      }
     } catch (error) {
+      console.error('Error sending consultation request:', error);
       toast({
-        title: "Error",
-        description: "Something went wrong. Please try again or contact us directly.",
+        title: "Error sending request",
+        description: "Please try again or contact us directly.",
         variant: "destructive",
       });
     } finally {
