@@ -28,7 +28,7 @@ const Hero = () => {
           
           {/* Subheading */}
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto leading-relaxed">
-            Get your own ChatGPT running in your home or office. Trained on your knowledge, owned by you forever.
+            Get your own AI running in your home or office. Trained on your knowledge, owned by you forever.
           </p>
           
           {/* CTA Buttons */}
