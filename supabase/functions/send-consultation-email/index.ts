@@ -32,7 +32,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send email to you (the business owner)
     const emailResponse = await resend.emails.send({
       from: "Consultation Request <onboarding@resend.dev>",
-      to: ["your-email@example.com"], // Replace with your actual email
+      to: ["Barryharris82@outlook.com"],
       subject: `New Consultation Request from ${name}`,
       html: `
         <h2>New Consultation Request</h2>
