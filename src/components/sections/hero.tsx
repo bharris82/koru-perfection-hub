@@ -23,7 +23,7 @@ const Hero = () => {
           <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight">
             Your Own Private AI
             <br />
-            <span className="text-text-secondary">No Subscriptions, No Data Sharing</span>
+            <span className="text-text-secondary">Private & Secure</span>
           </h1>
           
           {/* Subheading */}
@@ -61,8 +61,8 @@ const Hero = () => {
               <div className="text-sm text-text-muted">Weeks Setup</div>
             </div>
             <div className="space-y-1">
-              <div className="text-2xl font-bold text-primary">∞</div>
-              <div className="text-sm text-text-muted">No Subscriptions</div>
+              <div className="text-2xl font-bold text-primary">24/7</div>
+              <div className="text-sm text-text-muted">Available</div>
             </div>
           </div>
         </div>

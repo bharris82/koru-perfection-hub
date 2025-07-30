@@ -15,12 +15,6 @@ const Solution = () => {
       gradient: "from-accent to-primary"
     },
     {
-      icon: Gem,
-      title: "No Subscriptions",
-      description: "Pay once for setup, own it forever. No monthly fees, no usage limits, works offline.",
-      gradient: "from-primary-bright to-accent"
-    },
-    {
       icon: Rocket,
       title: "Professional Setup",
       description: "We handle all the technical work. Hardware recommendation, installation, training, and handoff.",

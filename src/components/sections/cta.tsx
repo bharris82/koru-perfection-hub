@@ -14,7 +14,7 @@ const CTA = () => {
             Ready to Own Your AI?
           </h2>
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto">
-            Get your own private AI running locally. No subscriptions, no data sharing, 
+            Get your own private AI running locally. No data sharing, 
             no dependence on big tech. Completely yours forever.
           </p>
           
