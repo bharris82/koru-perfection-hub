@@ -15,8 +15,8 @@ const Navigation = () => {
           </a>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/about" className="text-text-secondary hover:text-text-primary transition-colors">
-              Founder's Mission
+            <a href="#about" className="text-text-secondary hover:text-text-primary transition-colors">
+              About
             </a>
             <a href="#features" className="text-text-secondary hover:text-text-primary transition-colors">
               Features
@@ -31,6 +31,13 @@ const Navigation = () => {
               Contact
             </a>
           </div>
+          
+          <div className="hidden md:flex items-center">
+            <a href="/about" className="text-text-secondary hover:text-text-primary transition-colors mr-4">
+              Founder's Mission
+            </a>
+          </div>
+          
           
           <div className="flex items-center space-x-4">
             <a href="#contact">
