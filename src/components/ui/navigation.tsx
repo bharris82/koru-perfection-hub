@@ -27,9 +27,9 @@ const Navigation = () => {
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/about" className="text-text-secondary hover:text-text-primary transition-colors">
+            <button onClick={() => handleNavClick('about')} className="text-text-secondary hover:text-text-primary transition-colors">
               About
-            </Link>
+            </button>
             <button onClick={() => handleNavClick('features')} className="text-text-secondary hover:text-text-primary transition-colors">
               Features
             </button>
