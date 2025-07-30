@@ -5,7 +5,7 @@ import { ArrowRight, Shield, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 py-20">
+    <section id="about" className="relative min-h-screen flex items-center justify-center px-6 py-20">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -left-1/4 w-1/2 h-1/2 bg-primary/10 rounded-full blur-3xl animate-float"></div>

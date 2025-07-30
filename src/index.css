@@ -104,6 +104,10 @@
     min-height: 100vh;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+  
   /* Typography Scale */
   .text-hero {
     @apply text-6xl lg:text-7xl font-bold tracking-tight;

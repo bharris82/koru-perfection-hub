@@ -11,7 +11,7 @@ const ProductsShowcase = () => {
   ];
 
   return (
-    <section className="py-12 bg-background-muted/30 overflow-hidden">
+    <section id="features" className="py-12 bg-background-muted/30 overflow-hidden">
       <div className="container mx-auto px-6 mb-8">
         <div className="text-center">
           <h2 className="text-xl font-semibold text-text-primary mb-2">
