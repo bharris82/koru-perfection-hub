@@ -1,9 +1,11 @@
+import Navigation from "@/components/ui/navigation";
+
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
-      {/* Navigation spacing */}
-      <div className="pt-20"></div>
+      <Navigation />
       
+      <div className="pt-20"></div>
       <div className="container mx-auto px-6 py-16">
         <div className="max-w-4xl mx-auto">
           {/* Header Section */}
