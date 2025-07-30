@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import AnimatedTitle from "@/components/ui/animated-title";
 import { ArrowRight, Shield, Zap } from "lucide-react";
 
 const Hero = () => {
@@ -19,11 +20,17 @@ const Hero = () => {
           </div>
           
           {/* Main Heading */}
-          <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight">
-            Your Knowledge.
-            <br />
-            <span className="text-primary glow-primary">Your AI.</span>
-          </h1>
+          <AnimatedTitle
+            staticText="Your Knowledge."
+            phrases={[
+              "Your AI.",
+              "Your Privacy.",
+              "Your Control.",
+              "Your Future.",
+              "Your Power."
+            ]}
+            className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight"
+          />
           
           {/* Subheading */}
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto leading-relaxed">
