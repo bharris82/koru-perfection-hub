@@ -5,22 +5,22 @@ const HowItWorks = () => {
     {
       number: "1",
       icon: Upload,
-      title: "Share Your Knowledge",
-      description: "Upload documents, sermons, notes, policies, or any content. Everything stays private and secure during the process.",
+      title: "Homeschool Families",
+      description: "Upload lesson plans and teaching notes. Kids get a personal tutor trained on YOUR curriculum to help with math, science, and history.",
       color: "primary"
     },
     {
       number: "2", 
       icon: Cog,
-      title: "We Build Your AI",
-      description: "Using advanced RAG technology and vector databases, we create an AI that understands and can intelligently discuss your content.",
+      title: "Family Knowledge",
+      description: "Grandma's recipes become an AI cooking assistant. Family stories and photos create a 'digital ancestor' future generations can chat with.",
       color: "accent"
     },
     {
       number: "3",
       icon: Cloud,
-      title: "Deploy Anywhere",
-      description: "Choose cloud hosting for convenience, or run it locally for maximum privacy. It's your AI, your choice.",
+      title: "Small Businesses",
+      description: "Restaurant procedures become staff training AI. Auto shop knowledge becomes customer explanation tool. Always available, never forgets.",
       color: "primary-bright"
     }
   ];
@@ -30,10 +30,10 @@ const HowItWorks = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            How It Works
+            Real-World Examples
           </h2>
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto">
-            Three simple steps to your own private AI assistant
+            See how families and small businesses use their personal AI
           </p>
         </div>
         

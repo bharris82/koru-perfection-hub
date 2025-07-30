@@ -4,20 +4,20 @@ const Problems = () => {
   const problems = [
     {
       icon: AlertTriangle,
-      title: "Your Data Leaves",
-      description: "Your personal knowledge, business secrets, and family memories become training data for Big Tech's models.",
+      title: "Privacy Fears",
+      description: "Family recipes, business secrets, and personal documents shared with ChatGPT become training data for everyone else.",
       color: "text-red-400"
     },
     {
       icon: DollarSign,
-      title: "You Keep Paying",
-      description: "Monthly subscriptions that never end, with prices that only go up. You rent access, never own anything.",
+      title: "Endless Subscriptions",
+      description: "Monthly fees that never end. Pay forever just to access YOUR own knowledge, with no guarantee of future pricing.",
       color: "text-yellow-400"
     },
     {
       icon: Ban,
-      title: "Generic Answers",
-      description: "AI that knows everything about the internet but nothing about YOUR specific needs, values, or expertise.",
+      title: "Generic & Irrelevant",
+      description: "AI that knows everything about the internet but nothing about your family's recipes, your business processes, or your teaching style.",
       color: "text-orange-400"
     }
   ];
@@ -27,10 +27,10 @@ const Problems = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            The Problem With Today's AI
+            Why Families Don't Use AI
           </h2>
           <p className="text-body-large text-text-secondary mb-8">
-            Every time you use ChatGPT, Google AI, or Claude...
+            Most people want AI help but avoid it because...
           </p>
         </div>
         

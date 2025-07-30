@@ -34,8 +34,8 @@ const Hero = () => {
           
           {/* Subheading */}
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto leading-relaxed">
-            Build private AI chatbots trained on <em className="text-primary font-medium">your</em> content — 
-            without sending a single byte to Big Tech. Own your AI forever.
+            Personal AI assistants trained on <em className="text-primary font-medium">your</em> knowledge — 
+            perfect for families, tutors, and small businesses. Private, permanent, and personal.
           </p>
           
           {/* CTA Buttons */}
@@ -44,7 +44,7 @@ const Hero = () => {
               size="lg" 
               className="bg-primary hover:bg-primary-bright text-primary-foreground px-8 py-4 text-lg font-semibold glow-primary group"
             >
-              Start Building Your AI
+              Get Your Personal AI
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
@@ -53,7 +53,7 @@ const Hero = () => {
               className="border-primary/30 text-primary hover:bg-primary/10 px-8 py-4 text-lg"
             >
               <Zap className="mr-2 w-5 h-5" />
-              See How It Works
+              See Real Examples
             </Button>
           </div>
           
@@ -64,12 +64,12 @@ const Hero = () => {
               <div className="text-sm text-text-muted">Private</div>
             </div>
             <div className="space-y-1">
-              <div className="text-2xl font-bold text-primary">0</div>
-              <div className="text-sm text-text-muted">Monthly Fees</div>
+              <div className="text-2xl font-bold text-primary">2-3</div>
+              <div className="text-sm text-text-muted">Weeks Delivery</div>
             </div>
             <div className="space-y-1">
               <div className="text-2xl font-bold text-primary">∞</div>
-              <div className="text-sm text-text-muted">Lifetime Value</div>
+              <div className="text-sm text-text-muted">Yours Forever</div>
             </div>
           </div>
         </div>

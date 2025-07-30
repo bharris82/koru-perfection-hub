@@ -4,26 +4,26 @@ const Solution = () => {
   const features = [
     {
       icon: Lock,
-      title: "100% Private",
-      description: "Your AI runs on YOUR servers or trusted hosting. Your data never trains someone else's model. Complete control over who accesses your knowledge.",
+      title: "Private & Secure",
+      description: "Your family recipes, business knowledge, and teaching materials stay yours. Never used to train models for others.",
       gradient: "from-primary to-primary-bright"
     },
     {
       icon: Target,
-      title: "Perfectly Personal",
-      description: "AI trained on YOUR documents, YOUR expertise, YOUR values. Get answers that reflect your unique perspective and knowledge base.",
+      title: "Knows Your Context",
+      description: "Trained only on YOUR materials. Understands your curriculum, your business, your family's unique needs.",
       gradient: "from-accent to-primary"
     },
     {
       icon: Gem,
-      title: "Own Forever",
-      description: "One-time setup, lifetime value. No monthly fees to Big Tech. Your AI assistant becomes a permanent asset for your family or business.",
+      title: "Yours Forever",
+      description: "No ongoing subscriptions. We build it, deliver it, you own it. Works even if we disappear tomorrow.",
       gradient: "from-primary-bright to-accent"
     },
     {
       icon: Rocket,
-      title: "Easy Setup",
-      description: "No coding required. We handle the technical complexity. You just provide your knowledge, and we build your personal AI.",
+      title: "Done For You",
+      description: "Share your documents with us securely. We build your custom AI in 2-3 weeks. Simple web interface, like ChatGPT.",
       gradient: "from-accent to-primary-muted"
     }
   ];
@@ -36,12 +36,10 @@ const Solution = () => {
       <div className="container mx-auto relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            The Koru Solution
+            Your Personal AI, Done For You
           </h2>
           <p className="text-body-large text-text-secondary max-w-3xl mx-auto">
-            AI that belongs to you, not Big Tech. Imagine having an AI assistant that knows 
-            YOUR business, YOUR family history, YOUR expertise — without sending a single byte 
-            of data to Silicon Valley.
+            We build personal AI assistants trained on your knowledge — perfect for families, tutors, and small businesses
           </p>
         </div>
         
