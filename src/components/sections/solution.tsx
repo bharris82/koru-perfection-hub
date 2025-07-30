@@ -5,7 +5,7 @@ const Solution = () => {
     {
       icon: Lock,
       title: "Completely Private",
-      description: "Runs locally on your hardware. Your data never leaves your location. No cloud servers, no data sharing.",
+      description: "Runs locally on your hardware. Your data never leaves your location. No cloud servers, no data sharing, works without internet.",
       gradient: "from-primary to-primary-bright"
     },
     {
