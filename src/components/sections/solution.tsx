@@ -1,4 +1,4 @@
-import { Lock, Target, Gem, Rocket } from "lucide-react";
+import { Lock, Target, Rocket, Wifi } from "lucide-react";
 
 const Solution = () => {
   const features = [
@@ -13,6 +13,12 @@ const Solution = () => {
       title: "Trained on YOUR Knowledge",
       description: "Upload your documents, photos, and files. AI learns only from your materials - nothing from the internet.",
       gradient: "from-accent to-primary"
+    },
+    {
+      icon: Wifi,
+      title: "Works Offline",
+      description: "Your AI will work even without internet connection. Perfect for remote locations or when you want complete independence.",
+      gradient: "from-primary-bright to-accent"
     },
     {
       icon: Rocket,
