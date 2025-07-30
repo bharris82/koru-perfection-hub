@@ -30,9 +30,6 @@ const Navigation = () => {
           </div>
           
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" className="text-text-secondary hover:text-text-primary">
-              Sign In
-            </Button>
             <Button className="bg-primary hover:bg-primary-bright text-primary-foreground">
               Get Started
             </Button>
