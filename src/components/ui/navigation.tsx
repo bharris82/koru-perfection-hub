@@ -16,7 +16,7 @@ const Navigation = () => {
           
           <div className="hidden md:flex items-center space-x-8">
             <a href="/about" className="text-text-secondary hover:text-text-primary transition-colors">
-              About
+              Founder's Mission
             </a>
             <a href="#features" className="text-text-secondary hover:text-text-primary transition-colors">
               Features
