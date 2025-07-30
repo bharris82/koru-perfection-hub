@@ -136,3 +136,12 @@
     box-shadow: var(--shadow-card);
   }
 }
+
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -118,6 +118,7 @@ export default {
 				'typewriter': 'typewriter 2s steps(20) infinite',
 				'blink': 'blink 1s infinite',
 				'scroll-left': 'scroll-left 20s linear infinite',
+				'scroll-x': 'scroll-x 30s linear infinite',
 			}
 		}
 	},
