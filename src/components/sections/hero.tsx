@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import AnimatedTitle from "@/components/ui/animated-title";
+import ConsultationForm from "@/components/consultation-form";
 import { ArrowRight, Shield, Zap } from "lucide-react";
 
 const Hero = () => {
@@ -33,13 +34,17 @@ const Hero = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary-bright text-primary-foreground px-8 py-4 text-lg font-semibold glow-primary group"
-            >
-              Get Your Private AI Setup
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <ConsultationForm 
+              triggerButton={
+                <Button 
+                  size="lg" 
+                  className="bg-primary hover:bg-primary-bright text-primary-foreground px-8 py-4 text-lg font-semibold glow-primary group"
+                >
+                  Get Your Private AI Setup
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              }
+            />
             <Button 
               size="lg" 
               variant="outline" 
