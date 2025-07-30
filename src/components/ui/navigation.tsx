@@ -18,18 +18,15 @@ const Navigation = () => {
             <a href="#about" className="text-text-secondary hover:text-text-primary transition-colors">
               About
             </a>
-            <a href="#features" className="text-text-secondary hover:text-text-primary transition-colors">
-              Features
-            </a>
-            <a href="#how-it-works" className="text-text-secondary hover:text-text-primary transition-colors">
-              How It Works
-            </a>
-            <a href="#pricing" className="text-text-secondary hover:text-text-primary transition-colors">
-              Pricing
-            </a>
-            <a href="#contact" className="text-text-secondary hover:text-text-primary transition-colors">
-              Contact
-            </a>
+          <a href="#features" className="text-text-secondary hover:text-text-primary transition-colors">
+            Features
+          </a>
+          <a href="#how-it-works" className="text-text-secondary hover:text-text-primary transition-colors">
+            How It Works
+          </a>
+          <a href="#contact" className="text-text-secondary hover:text-text-primary transition-colors">
+            Contact
+          </a>
           </div>
           
           <div className="hidden md:flex items-center">
