@@ -30,7 +30,7 @@ const Navigation = () => {
             </span>
           </Link>
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             <button onClick={() => handleNavClick('about')} className="text-text-secondary hover:text-text-primary transition-colors">
               About
             </button>
@@ -48,14 +48,14 @@ const Navigation = () => {
             </button>
           </div>
           
-          <div className="hidden md:flex items-center">
+          <div className="hidden lg:flex items-center">
             <Link to="/about" className="text-text-secondary hover:text-text-primary transition-colors mr-4">
               Founder's Mission
             </Link>
           </div>
           
           <div className="flex items-center space-x-4">
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <button onClick={() => handleNavClick('contact')}>
                 <Button className="bg-primary hover:bg-primary-bright text-primary-foreground">
                   Get Started
@@ -66,7 +66,7 @@ const Navigation = () => {
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden p-2 text-text-secondary hover:text-text-primary transition-colors"
+              className="lg:hidden p-2 text-text-secondary hover:text-text-primary transition-colors"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -75,7 +75,7 @@ const Navigation = () => {
         
         {/* Mobile menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-border">
+          <div className="lg:hidden mt-4 pb-4 border-t border-border">
             <div className="flex flex-col space-y-4 pt-4">
               <button onClick={() => handleNavClick('about')} className="text-left text-text-secondary hover:text-text-primary transition-colors">
                 About
