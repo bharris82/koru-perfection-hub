@@ -30,9 +30,11 @@ const Navigation = () => {
           </div>
           
           <div className="flex items-center space-x-4">
-            <Button className="bg-primary hover:bg-primary-bright text-primary-foreground">
-              Get Started
-            </Button>
+            <a href="#contact">
+              <Button className="bg-primary hover:bg-primary-bright text-primary-foreground">
+                Get Started
+              </Button>
+            </a>
           </div>
         </div>
       </div>
