@@ -6,7 +6,7 @@ const HowItWorks = () => {
       number: "1",
       icon: PhoneCall,
       title: "Discovery Call (Free)",
-      description: "30-minute consultation to understand your needs, assess your documents, and recommend the right solution for you.",
+      description: "30-minute consultation to understand your needs and recommend the right solution for you.",
       color: "primary"
     },
     {
