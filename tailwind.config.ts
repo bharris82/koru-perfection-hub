@@ -101,6 +101,10 @@ export default {
 				'blink': {
 					'0%, 50%': { opacity: '1' },
 					'51%, 100%': { opacity: '0' }
+				},
+				'scroll-left': {
+					'0%': { transform: 'translateX(0)' },
+					'100%': { transform: 'translateX(-50%)' }
 				}
 			},
 			animation: {
@@ -113,6 +117,7 @@ export default {
 				'float': 'float 3s ease-in-out infinite',
 				'typewriter': 'typewriter 2s steps(20) infinite',
 				'blink': 'blink 1s infinite',
+				'scroll-left': 'scroll-left 20s linear infinite',
 			}
 		}
 	},
