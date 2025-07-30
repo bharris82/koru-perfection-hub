@@ -10,7 +10,7 @@ const Footer = () => {
                 <span className="text-primary-foreground font-bold text-lg">K</span>
               </div>
               <span className="text-xl font-grotesk font-bold text-text-primary">
-                Koru AI
+                The Koru Project
               </span>
             </div>
             <p className="text-text-muted text-sm leading-relaxed">
@@ -55,7 +55,7 @@ const Footer = () => {
         <div className="border-t border-border/30 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-text-muted text-sm">
-              © 2024 Koru AI. All rights reserved.
+              © 2024 The Koru Project. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm text-text-muted">
               <span>Made with ❤️ for privacy</span>

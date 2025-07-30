@@ -10,7 +10,7 @@ const Navigation = () => {
               <span className="text-primary-foreground font-bold text-lg">K</span>
             </div>
             <span className="text-xl font-grotesk font-bold text-text-primary">
-              Koru AI
+              The Koru Project
             </span>
           </div>
           
