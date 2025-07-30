@@ -20,22 +20,15 @@ const Hero = () => {
           </div>
           
           {/* Main Heading */}
-          <AnimatedTitle
-            staticText="Your Knowledge."
-            phrases={[
-              "Your AI.",
-              "Your Privacy.",
-              "Your Control.",
-              "Your Future.",
-              "Your Power."
-            ]}
-            className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight"
-          />
+          <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight">
+            Your Own Private AI
+            <br />
+            <span className="text-text-secondary">No Subscriptions, No Data Sharing</span>
+          </h1>
           
           {/* Subheading */}
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto leading-relaxed">
-            Personal AI assistants trained on <em className="text-primary font-medium">your</em> knowledge — 
-            perfect for families, tutors, and small businesses. Private, permanent, and personal.
+            Get your own ChatGPT running in your home or office. Trained on your knowledge, owned by you forever.
           </p>
           
           {/* CTA Buttons */}
@@ -44,7 +37,7 @@ const Hero = () => {
               size="lg" 
               className="bg-primary hover:bg-primary-bright text-primary-foreground px-8 py-4 text-lg font-semibold glow-primary group"
             >
-              Get Your Personal AI
+              Get Your Private AI Setup
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
@@ -53,7 +46,7 @@ const Hero = () => {
               className="border-primary/30 text-primary hover:bg-primary/10 px-8 py-4 text-lg"
             >
               <Zap className="mr-2 w-5 h-5" />
-              See Real Examples
+              See How It Works
             </Button>
           </div>
           
@@ -61,15 +54,15 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-8 pt-12 text-center">
             <div className="space-y-1">
               <div className="text-2xl font-bold text-primary">100%</div>
-              <div className="text-sm text-text-muted">Private</div>
+              <div className="text-sm text-text-muted">Private & Local</div>
             </div>
             <div className="space-y-1">
               <div className="text-2xl font-bold text-primary">2-3</div>
-              <div className="text-sm text-text-muted">Weeks Delivery</div>
+              <div className="text-sm text-text-muted">Weeks Setup</div>
             </div>
             <div className="space-y-1">
               <div className="text-2xl font-bold text-primary">∞</div>
-              <div className="text-sm text-text-muted">Yours Forever</div>
+              <div className="text-sm text-text-muted">No Subscriptions</div>
             </div>
           </div>
         </div>

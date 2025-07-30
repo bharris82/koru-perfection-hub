@@ -4,26 +4,26 @@ const Solution = () => {
   const features = [
     {
       icon: Lock,
-      title: "Private & Secure",
-      description: "Your family recipes, business knowledge, and teaching materials stay yours. Never used to train models for others.",
+      title: "Completely Private",
+      description: "Runs locally on your hardware. Your data never leaves your location. No cloud servers, no data sharing.",
       gradient: "from-primary to-primary-bright"
     },
     {
       icon: Target,
-      title: "Knows Your Context",
-      description: "Trained only on YOUR materials. Understands your curriculum, your business, your family's unique needs.",
+      title: "Trained on YOUR Knowledge",
+      description: "Upload your documents, photos, and files. AI learns only from your materials - nothing from the internet.",
       gradient: "from-accent to-primary"
     },
     {
       icon: Gem,
-      title: "Yours Forever",
-      description: "No ongoing subscriptions. We build it, deliver it, you own it. Works even if we disappear tomorrow.",
+      title: "No Subscriptions",
+      description: "Pay once for setup, own it forever. No monthly fees, no usage limits, works offline.",
       gradient: "from-primary-bright to-accent"
     },
     {
       icon: Rocket,
-      title: "Done For You",
-      description: "Share your documents with us securely. We build your custom AI in 2-3 weeks. Simple web interface, like ChatGPT.",
+      title: "Professional Setup",
+      description: "We handle all the technical work. Hardware recommendation, installation, training, and handoff.",
       gradient: "from-accent to-primary-muted"
     }
   ];
@@ -36,10 +36,10 @@ const Solution = () => {
       <div className="container mx-auto relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            Your Personal AI, Done For You
+            Your Own Private AI Setup
           </h2>
           <p className="text-body-large text-text-secondary max-w-3xl mx-auto">
-            We build personal AI assistants trained on your knowledge — perfect for families, tutors, and small businesses
+            We set up your own private AI that runs in your home or office. It learns from YOUR documents, photos, and knowledge - and stays completely private.
           </p>
         </div>
         

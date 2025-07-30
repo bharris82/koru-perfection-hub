@@ -1,26 +1,26 @@
-import { Upload, Cog, Cloud } from "lucide-react";
+import { PhoneCall, Settings, GraduationCap } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       number: "1",
-      icon: Upload,
-      title: "Homeschool Families",
-      description: "Upload lesson plans and teaching notes. Kids get a personal tutor trained on YOUR curriculum to help with math, science, and history.",
+      icon: PhoneCall,
+      title: "Discovery Call (Free)",
+      description: "30-minute consultation to understand your needs, assess your documents, and recommend the right solution for you.",
       color: "primary"
     },
     {
       number: "2", 
-      icon: Cog,
-      title: "Family Knowledge",
-      description: "Grandma's recipes become an AI cooking assistant. Family stories and photos create a 'digital ancestor' future generations can chat with.",
+      icon: Settings,
+      title: "Setup & Installation",
+      description: "We specify your hardware, install everything remotely, upload your documents, and optimize your private AI.",
       color: "accent"
     },
     {
       number: "3",
-      icon: Cloud,
-      title: "Small Businesses",
-      description: "Restaurant procedures become staff training AI. Auto shop knowledge becomes customer explanation tool. Always available, never forgets.",
+      icon: GraduationCap,
+      title: "Training & Handoff",
+      description: "Live training session, written documentation, and 30 days of support. You own it completely.",
       color: "primary-bright"
     }
   ];
@@ -30,10 +30,10 @@ const HowItWorks = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            Real-World Examples
+            How It Works
           </h2>
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto">
-            See how families and small businesses use their personal AI
+            From consultation to launch in 2-3 weeks
           </p>
         </div>
         

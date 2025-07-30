@@ -1,23 +1,23 @@
-import { AlertTriangle, DollarSign, Ban } from "lucide-react";
+import { Shield, DollarSign, MessageSquareX } from "lucide-react";
 
 const Problems = () => {
   const problems = [
     {
-      icon: AlertTriangle,
-      title: "Privacy Fears",
-      description: "Family recipes, business secrets, and personal documents shared with ChatGPT become training data for everyone else.",
+      icon: Shield,
+      title: "Privacy Concerns",
+      description: "Your family photos training someone else's AI. Business secrets shared with big tech. No control over your data.",
       color: "text-red-400"
     },
     {
       icon: DollarSign,
-      title: "Endless Subscriptions",
-      description: "Monthly fees that never end. Pay forever just to access YOUR own knowledge, with no guarantee of future pricing.",
+      title: "Subscription Fatigue",
+      description: "$20/month per person adds up fast. Features removed without notice. Lose access when you stop paying.",
       color: "text-yellow-400"
     },
     {
-      icon: Ban,
-      title: "Generic & Irrelevant",
-      description: "AI that knows everything about the internet but nothing about your family's recipes, your business processes, or your teaching style.",
+      icon: MessageSquareX,
+      title: "Generic Responses",
+      description: "Doesn't know your business. Can't access your documents. Gives internet answers, not YOUR answers.",
       color: "text-orange-400"
     }
   ];
@@ -27,10 +27,10 @@ const Problems = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            Why Families Don't Use AI
+            Why People Avoid AI
           </h2>
           <p className="text-body-large text-text-secondary mb-8">
-            Most people want AI help but avoid it because...
+            Most people want AI help but don't want to...
           </p>
         </div>
         
