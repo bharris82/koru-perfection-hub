@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import AnimatedTitle from "@/components/ui/animated-title";
 import ConsultationForm from "@/components/consultation-form";
 import { ArrowRight, Shield, Zap } from "lucide-react";
+
 
 const Hero = () => {
   return (
@@ -45,14 +47,25 @@ const Hero = () => {
                 </Button>
               }
             />
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-primary/30 text-primary hover:bg-primary/10 px-8 py-4 text-lg"
-            >
-              <Zap className="mr-2 w-5 h-5" />
-              See How It Works
-            </Button>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button 
+                  size="lg" 
+                  variant="outline" 
+                  className="border-primary/30 text-primary hover:bg-primary/10 px-8 py-4 text-lg"
+                >
+                  <Zap className="mr-2 w-5 h-5" />
+                  See How It Works
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="max-w-4xl w-full">
+                <img 
+                  src="/lovable-uploads/d443aa79-c23a-4460-ac96-131c7e33a44a.png" 
+                  alt="How It Works - 3 Step Process" 
+                  className="w-full h-auto"
+                />
+              </DialogContent>
+            </Dialog>
           </div>
           
           {/* Stats */}
