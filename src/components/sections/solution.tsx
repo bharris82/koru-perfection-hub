@@ -5,7 +5,7 @@ const Solution = () => {
     {
       icon: Lock,
       title: "Completely Private",
-      description: "Runs locally on your hardware. Your data never leaves your location. No cloud servers, no data sharing, works without internet.",
+      description: "Runs in an isolated environment. Your data never leaves your designated space. No cloud servers, no data sharing, works without internet.",
       gradient: "from-primary to-primary-bright"
     },
     {
@@ -17,13 +17,13 @@ const Solution = () => {
     {
       icon: Wifi,
       title: "Works Offline",
-      description: "Your AI will work even without internet connection. Perfect for remote locations or when you want complete independence.",
+      description: "Your LLM will work even without internet connection. Perfect for sensitive environments or when you want complete independence.",
       gradient: "from-primary-bright to-accent"
     },
     {
       icon: Rocket,
       title: "Professional Setup",
-      description: "We handle all the technical work. Hardware recommendation, installation, training, and handoff.",
+      description: "We handle all the technical work. Environment configuration, installation, training, and handoff.",
       gradient: "from-accent to-primary-muted"
     }
   ];
@@ -36,10 +36,10 @@ const Solution = () => {
       <div className="container mx-auto relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            Your Own Private AI Setup
+            Your Own Isolated LLM Setup
           </h2>
           <p className="text-body-large text-text-secondary max-w-3xl mx-auto">
-            We set up your own private AI that runs in your home or office. It learns from YOUR documents, photos, and knowledge - and stays completely private.
+            We set up your own LLM that runs in an isolated environment. It learns from YOUR documents, photos, and knowledge - and stays completely private.
           </p>
         </div>
         

@@ -13,7 +13,7 @@ const HowItWorks = () => {
       number: "2", 
       icon: Settings,
       title: "Setup & Installation",
-      description: "We specify your hardware, install everything remotely, upload your documents, and optimize your private AI. Can also set up private hosting solutions that stay completely private.",
+      description: "We configure your isolated environment, install everything remotely, upload your documents, and optimize your private LLM. Can also set up hosting solutions that stay completely isolated.",
       color: "accent"
     },
     {

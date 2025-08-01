@@ -5,13 +5,13 @@ const ProductsShowcase = () => {
     {
       icon: Shield,
       title: "100% Private",
-      description: "Your data never leaves your location. No cloud servers, no data sharing.",
+      description: "Your data never leaves your isolated environment. No cloud servers, no data sharing.",
       gradient: "from-primary to-primary-bright"
     },
     {
       icon: Home,
-      title: "Runs in Your Space",
-      description: "Set up in your home or office. Complete control over your AI assistant.",
+      title: "Runs in Isolation",
+      description: "Set up in your secure, isolated environment. Complete control over your LLM.",
       gradient: "from-accent to-primary"
     },
     {
@@ -36,10 +36,10 @@ const ProductsShowcase = () => {
       <div className="container mx-auto relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            Why Choose Private AI?
+            Why Choose Isolated LLMs?
           </h2>
           <p className="text-body-large text-text-secondary max-w-3xl mx-auto">
-            Everything you love about AI assistants, but completely private and under your control.
+            Everything you love about AI assistants, but completely private and under your control in an isolated environment.
           </p>
         </div>
         
