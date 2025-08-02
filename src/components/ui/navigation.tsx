@@ -31,6 +31,14 @@ const Navigation = () => {
           </Link>
           
           <div className="hidden lg:flex items-center space-x-8">
+            <a 
+              href="https://opal.withgoogle.com/?flow=drive:/1w8hlSsnONhEtm9VL4CLb7zBzDoJvN3YN&mode=app&shared=true" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary-bright transition-colors font-semibold"
+            >
+              Today's AI News App
+            </a>
             <button onClick={() => handleNavClick('about')} className="text-text-secondary hover:text-text-primary transition-colors">
               About
             </button>
@@ -77,6 +85,15 @@ const Navigation = () => {
         {isMobileMenuOpen && (
           <div className="lg:hidden mt-4 pb-4 border-t border-border">
             <div className="flex flex-col space-y-4 pt-4">
+              <a 
+                href="https://opal.withgoogle.com/?flow=drive:/1w8hlSsnONhEtm9VL4CLb7zBzDoJvN3YN&mode=app&shared=true" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-left text-primary hover:text-primary-bright transition-colors font-semibold"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Today's AI News App
+              </a>
               <button onClick={() => handleNavClick('about')} className="text-left text-text-secondary hover:text-text-primary transition-colors">
                 About
               </button>
