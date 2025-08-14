@@ -1,30 +1,27 @@
-import { Lock, Target, Rocket, Wifi } from "lucide-react";
+import { Home, Blocks, Settings } from "lucide-react";
 
 const Solution = () => {
-  const features = [
+  const products = [
     {
-      icon: Lock,
-      title: "Completely Private",
-      description: "Runs in an isolated environment. Your data never leaves your designated space. No cloud servers, no data sharing, works without internet.",
-      gradient: "from-primary to-primary-bright"
+      icon: Home,
+      title: "Personal Isolated Environment",
+      description: "Your own private AI environment that learns from your personal documents, family photos, and knowledge. Perfect for health advice, family tutoring, and personal finance guidance.",
+      gradient: "from-primary to-primary-bright",
+      features: ["Health AI", "Family Tutor", "Financial Advisor", "100% Private"]
     },
     {
-      icon: Target,
-      title: "Trained on YOUR Knowledge",
-      description: "Upload your documents, photos, and files. AI learns only from your materials - nothing from the internet.",
-      gradient: "from-accent to-primary"
+      icon: Blocks,
+      title: "HelpBlocks.ai",
+      description: "Pre-trained AI agents for specific tasks. Choose from tutors, help desk, life coaches, and more. Each block comes with built-in prompts and guided assistance.",
+      gradient: "from-accent to-primary",
+      features: ["Ready-to-use", "Specialized Agents", "Built-in Prompts", "Quick Setup"]
     },
     {
-      icon: Wifi,
-      title: "Works Offline",
-      description: "Your LLM will work even without internet connection. Perfect for sensitive environments or when you want complete independence.",
-      gradient: "from-primary-bright to-accent"
-    },
-    {
-      icon: Rocket,
-      title: "Professional Setup",
-      description: "We handle all the technical work. Environment configuration, installation, training, and handoff.",
-      gradient: "from-accent to-primary-muted"
+      icon: Settings,
+      title: "AI Consulting Solutions",
+      description: "Professional AI implementation using AnythingLLM, Open WebUI, and other LLM platforms. Custom solutions for businesses and organizations.",
+      gradient: "from-primary-bright to-accent",
+      features: ["AnythingLLM", "Open WebUI", "Custom Setup", "Enterprise Ready"]
     }
   ];
 
@@ -36,36 +33,46 @@ const Solution = () => {
       <div className="container mx-auto relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            Your Own Isolated LLM Setup
+            Three AI Solutions for Your Needs
           </h2>
           <p className="text-body-large text-text-secondary max-w-3xl mx-auto">
-            We set up your own LLM that runs in an isolated environment. It learns from YOUR documents, photos, and knowledge - and stays completely private.
+            Choose the perfect AI solution for your situation. From personal environments to ready-made agents to enterprise consulting.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {features.map((feature, index) => (
+        <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          {products.map((product, index) => (
             <div 
               key={index}
               className="card-elegant p-8 rounded-2xl group hover:scale-105 transition-all duration-500 animate-fade-in relative overflow-hidden"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               {/* Gradient overlay */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-5 group-hover:opacity-10 transition-opacity`}></div>
+              <div className={`absolute inset-0 bg-gradient-to-br ${product.gradient} opacity-5 group-hover:opacity-10 transition-opacity`}></div>
               
               <div className="relative">
-                <div className={`inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-r ${feature.gradient} p-0.5 mb-6 group-hover:scale-110 transition-transform`}>
+                <div className={`inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-r ${product.gradient} p-0.5 mb-6 group-hover:scale-110 transition-transform`}>
                   <div className="w-full h-full bg-background rounded-xl flex items-center justify-center">
-                    <feature.icon className="w-7 h-7 text-primary" />
+                    <product.icon className="w-7 h-7 text-primary" />
                   </div>
                 </div>
                 
                 <h3 className="text-xl font-bold text-text-primary mb-4 font-grotesk">
-                  {feature.title}
+                  {product.title}
                 </h3>
-                <p className="text-text-secondary leading-relaxed">
-                  {feature.description}
+                <p className="text-text-secondary leading-relaxed mb-6">
+                  {product.description}
                 </p>
+                
+                {/* Features list */}
+                <div className="grid grid-cols-2 gap-2">
+                  {product.features.map((feature, featureIndex) => (
+                    <div key={featureIndex} className="flex items-center text-sm text-text-secondary">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2"></div>
+                      {feature}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           ))}

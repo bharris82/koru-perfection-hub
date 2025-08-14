@@ -19,19 +19,19 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary">
             <Shield className="w-4 h-4" />
-            <span className="text-sm font-medium">100% Private & Secure</span>
+            <span className="text-sm font-medium">Personal AI That Knows You</span>
           </div>
           
           {/* Main Heading */}
           <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight">
-            Your Own Private AI
+            Your Personal AI
             <br />
-            <span className="text-text-secondary">Isolated & Secure</span>
+            <span className="text-text-secondary">Family • Finance • Health • Education</span>
           </h1>
           
           {/* Subheading */}
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto leading-relaxed">
-            Get your own LLM running in an isolated environment. Trained on your knowledge, owned by you forever.
+            Get personalized AI solutions that understand your unique needs. From family tutoring to financial advice, all completely private and secure.
           </p>
           
           {/* CTA Buttons */}
@@ -42,7 +42,7 @@ const Hero = () => {
                   size="lg" 
                   className="bg-primary hover:bg-primary-bright text-primary-foreground px-8 py-4 text-lg font-semibold glow-primary group"
                 >
-                  Get Your Isolated LLM Setup
+                  Start Your Personal AI Journey
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               }
@@ -72,15 +72,15 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-8 pt-12 text-center">
             <div className="space-y-1">
               <div className="text-2xl font-bold text-primary">100%</div>
-              <div className="text-sm text-text-muted">Private & Isolated</div>
+              <div className="text-sm text-text-muted">Personal & Private</div>
             </div>
             <div className="space-y-1">
-              <div className="text-2xl font-bold text-primary">2-3</div>
-              <div className="text-sm text-text-muted">Weeks Setup</div>
+              <div className="text-2xl font-bold text-primary">3</div>
+              <div className="text-sm text-text-muted">Product Solutions</div>
             </div>
             <div className="space-y-1">
               <div className="text-2xl font-bold text-primary">24/7</div>
-              <div className="text-sm text-text-muted">Available</div>
+              <div className="text-sm text-text-muted">AI Support</div>
             </div>
           </div>
         </div>

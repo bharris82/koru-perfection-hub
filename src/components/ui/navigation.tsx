@@ -43,10 +43,13 @@ const Navigation = () => {
               About
             </button>
             <button onClick={() => handleNavClick('features')} className="text-text-secondary hover:text-text-primary transition-colors">
-              Features
+              Personal AI
+            </button>
+            <button onClick={() => handleNavClick('helpblocks')} className="text-text-secondary hover:text-text-primary transition-colors">
+              HelpBlocks.ai
             </button>
             <button onClick={() => handleNavClick('solution')} className="text-text-secondary hover:text-text-primary transition-colors">
-              Solution
+              Consulting
             </button>
             <button onClick={() => handleNavClick('how-it-works')} className="text-text-secondary hover:text-text-primary transition-colors">
               How It Works
@@ -98,10 +101,13 @@ const Navigation = () => {
                 About
               </button>
               <button onClick={() => handleNavClick('features')} className="text-left text-text-secondary hover:text-text-primary transition-colors">
-                Features
+                Personal AI
+              </button>
+              <button onClick={() => handleNavClick('helpblocks')} className="text-left text-text-secondary hover:text-text-primary transition-colors">
+                HelpBlocks.ai
               </button>
               <button onClick={() => handleNavClick('solution')} className="text-left text-text-secondary hover:text-text-primary transition-colors">
-                Solution
+                Consulting
               </button>
               <button onClick={() => handleNavClick('how-it-works')} className="text-left text-text-secondary hover:text-text-primary transition-colors">
                 How It Works

@@ -1,29 +1,29 @@
-import { Shield, Home, Cpu, Users } from "lucide-react";
+import { Shield, Home, Cpu, Heart, GraduationCap, DollarSign } from "lucide-react";
 
 const ProductsShowcase = () => {
   const features = [
     {
-      icon: Shield,
-      title: "100% Private",
-      description: "Your data never leaves your isolated environment. No cloud servers, no data sharing.",
+      icon: Heart,
+      title: "Personal Health AI",
+      description: "Your private health advisor that learns from your medical history, symptoms, and preferences.",
       gradient: "from-primary to-primary-bright"
     },
     {
-      icon: Home,
-      title: "Runs in Isolation",
-      description: "Set up in your secure, isolated environment. Complete control over your LLM.",
+      icon: GraduationCap,
+      title: "Family Tutor AI",
+      description: "Personalized tutoring for your children, adapting to their learning style and pace.",
       gradient: "from-accent to-primary"
     },
     {
-      icon: Cpu,
-      title: "Learns YOUR Knowledge",
-      description: "Train on your documents, photos, and files. Personalized to your needs.",
+      icon: DollarSign,
+      title: "Financial Advisor AI",
+      description: "Personal finance guidance based on your spending habits, goals, and financial situation.",
       gradient: "from-primary-bright to-accent"
     },
     {
-      icon: Users,
-      title: "Professional Setup",
-      description: "We handle installation, training, and handoff. No technical expertise required.",
+      icon: Shield,
+      title: "100% Private",
+      description: "All AI solutions run in your isolated environment. Your personal data stays with you.",
       gradient: "from-accent to-primary-muted"
     }
   ];
@@ -36,10 +36,10 @@ const ProductsShowcase = () => {
       <div className="container mx-auto relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-display font-grotesk text-text-primary mb-6">
-            Why Choose Isolated LLMs?
+            Personal AI for Every Aspect of Life
           </h2>
           <p className="text-body-large text-text-secondary max-w-3xl mx-auto">
-            Everything you love about AI assistants, but completely private and under your control in an isolated environment.
+            Get AI assistants that truly understand you and your family. Trained on your personal data, completely private, and always available.
           </p>
         </div>
         
