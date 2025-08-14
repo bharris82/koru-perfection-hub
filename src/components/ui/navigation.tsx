@@ -30,40 +30,6 @@ const Navigation = () => {
             </span>
           </Link>
           
-          <div className="hidden lg:flex items-center space-x-8">
-            <a 
-              href="https://opal.withgoogle.com/?flow=drive:/1w8hlSsnONhEtm9VL4CLb7zBzDoJvN3YN&mode=app&shared=true" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-primary hover:text-primary-bright transition-colors font-semibold"
-            >
-              Today's AI News App
-            </a>
-            <button onClick={() => handleNavClick('about')} className="text-text-secondary hover:text-text-primary transition-colors">
-              About
-            </button>
-            <button onClick={() => handleNavClick('features')} className="text-text-secondary hover:text-text-primary transition-colors">
-              Personal AI
-            </button>
-            <button onClick={() => handleNavClick('helpblocks')} className="text-text-secondary hover:text-text-primary transition-colors">
-              HelpBlocks.ai
-            </button>
-            <button onClick={() => handleNavClick('solution')} className="text-text-secondary hover:text-text-primary transition-colors">
-              Consulting
-            </button>
-            <button onClick={() => handleNavClick('how-it-works')} className="text-text-secondary hover:text-text-primary transition-colors">
-              How It Works
-            </button>
-            <button onClick={() => handleNavClick('contact')} className="text-text-secondary hover:text-text-primary transition-colors">
-              Contact
-            </button>
-          </div>
-          
-          <div className="hidden lg:flex items-center">
-            <Link to="/about" className="text-text-secondary hover:text-text-primary transition-colors mr-4">
-              Founder's Mission
-            </Link>
-          </div>
           
           <div className="flex items-center space-x-4">
             <div className="hidden lg:block">
@@ -74,19 +40,19 @@ const Navigation = () => {
               </button>
             </div>
             
-            {/* Mobile menu button */}
+            {/* Burger menu button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-2 text-text-secondary hover:text-text-primary transition-colors"
+              className="p-2 text-text-secondary hover:text-text-primary transition-colors"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
         
-        {/* Mobile menu */}
+        {/* Burger menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden mt-4 pb-4 border-t border-border">
+          <div className="mt-4 pb-4 border-t border-border">
             <div className="flex flex-col space-y-4 pt-4">
               <a 
                 href="https://opal.withgoogle.com/?flow=drive:/1w8hlSsnONhEtm9VL4CLb7zBzDoJvN3YN&mode=app&shared=true" 
