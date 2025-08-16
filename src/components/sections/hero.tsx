@@ -24,14 +24,14 @@ const Hero = () => {
           
           {/* Main Heading */}
           <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight animate-pulse-glow">
-            <span className="drop-shadow-lg">Welcome to Koru AI - Enhanced</span>
+            <span className="drop-shadow-lg">Private AI for Every Part of Life</span>
             <br />
-            <span className="text-text-secondary text-4xl md:text-5xl lg:text-6xl font-medium drop-shadow-md">Family • Finance • Health • Education</span>
+            <span className="text-text-secondary text-4xl md:text-5xl lg:text-6xl font-medium drop-shadow-md">Personal • Family • Business</span>
           </h1>
           
           {/* Subheading */}
           <p className="text-body-large text-text-secondary max-w-2xl mx-auto leading-relaxed">
-            Get personalized AI solutions that understand your unique needs. From family tutoring to financial advice, all completely private and secure.
+            Your AI companion, fully yours and completely secure.
           </p>
           
           {/* CTA Buttons */}
