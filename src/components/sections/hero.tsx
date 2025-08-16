@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
           
           {/* Main Heading */}
-          <h1 className="text-hero font-grotesk leading-tight animate-pulse-glow" style={{background: 'linear-gradient(90deg, #ffffff 0%, #10b981 50%, #3b82f6 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
+          <h1 className="text-hero font-grotesk leading-tight animate-pulse-glow text-white" style={{backgroundImage: 'linear-gradient(45deg, white, #22c55e, #3b82f6)', backgroundSize: '100%', backgroundRepeat: 'repeat', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', MozBackgroundClip: 'text', MozTextFillColor: 'transparent'}}>
             <span className="drop-shadow-lg">Private AI for Every Part of Life</span>
             <br />
             <span className="text-text-secondary text-4xl md:text-5xl lg:text-6xl font-medium drop-shadow-md">Personal • Family • Business</span>
