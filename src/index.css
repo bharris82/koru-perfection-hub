@@ -149,3 +149,22 @@
 .animate-scroll-x {
   animation: scroll-x 12s linear infinite;
 }
+
+@keyframes color-cycle {
+  0% {
+    color: #ffffff;
+  }
+  33% {
+    color: #22c55e;
+  }
+  66% {
+    color: #3b82f6;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+.animate-color-cycle {
+  animation: color-cycle 4s ease-in-out infinite;
+}
