@@ -23,10 +23,10 @@ const Hero = () => {
           </div>
           
           {/* Main Heading */}
-          <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight">
-            Your Personal AI
+          <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight animate-pulse-glow">
+            <span className="drop-shadow-lg">Welcome to Koru AI - Enhanced</span>
             <br />
-            <span className="text-text-secondary">Family • Finance • Health • Education</span>
+            <span className="text-text-secondary text-4xl md:text-5xl lg:text-6xl font-medium drop-shadow-md">Family • Finance • Health • Education</span>
           </h1>
           
           {/* Subheading */}
