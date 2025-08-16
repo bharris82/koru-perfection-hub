@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
           
           {/* Main Heading */}
-          <h1 className="text-hero font-grotesk bg-gradient-to-r from-text-primary via-primary to-accent bg-clip-text text-transparent leading-tight animate-pulse-glow">
+          <h1 className="text-hero font-grotesk bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent leading-tight animate-pulse-glow">
             <span className="drop-shadow-lg">Private AI for Every Part of Life</span>
             <br />
             <span className="text-text-secondary text-4xl md:text-5xl lg:text-6xl font-medium drop-shadow-md">Personal • Family • Business</span>
