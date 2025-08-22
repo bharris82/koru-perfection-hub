@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Open Lovable",
-  description: "Re-imagine any website in seconds with AI-powered website builder.",
+  title: "The Koru Project | Personal AI That Knows You",
+  description: "Private AI for every part of life. Personal, Family, Business solutions that truly understand you.",
 };
 
 export default function RootLayout({
