@@ -22,6 +22,7 @@
     "@e2b/code-interpreter": "^1.5.1",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-switch": "^1.2.5",
+    "@supabase/supabase-js": "^2.56.0",
     "@tailwindcss/oxide": "^4.1.12",
     "@types/react-syntax-highlighter": "^15.5.13",
     "ai": "^5.0.0",
