@@ -56,3 +56,13 @@ e2b-template-*
 *.temp
 repomix-output.txt
 bun.lockb
+node_modules/
+.next/
+.out/
+dist/
+.env
+.env.local
+.env.*.local
+.cache/
+npm-debug.log*
+yarn-error.log*
